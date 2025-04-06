@@ -10,6 +10,8 @@
     margin-bottom: 15px;
     background-color: #d0d3d4;
     border-radius: 4px;
+    display: flex;
+    
 }
 
 .box1 {
@@ -36,23 +38,23 @@ h1 {
 /* Insira o código abaixo */
 
 .container1 {
-    
+    justify-content: start;
 }
 
 .container2 {
-    
+    justify-content: end;
 }
 
 .container3 {
-   
+    justify-content: center;
 }
 
 .container4 {
-    
+    justify-content: space-between;
 }
 .container5 {
-    
+    justify-content: space-around;
 }
-.container-6 {
-    
+.container6 {
+    justify-content: space-evenly;
 }
